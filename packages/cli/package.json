@@ -1,0 +1,17 @@
+{
+  "name": "@loonyjs/cli",
+  "version": "0.1.0",
+  "description": "LoonyJS CLI — scaffold modules, controllers, services",
+  "bin": {
+    "loony": "dist/bin/loony.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.14.0"
+  }
+}

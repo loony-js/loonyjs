@@ -1,0 +1,17 @@
+{
+  "name": "@loonyjs/common",
+  "version": "0.1.0",
+  "description": "LoonyJS common utilities — built-in pipes, decorators, validators",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@loonyjs/core": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
