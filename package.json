@@ -14,7 +14,7 @@
     "clean": "find . -name 'dist' -not -path '*/node_modules/*' -exec rm -rf {} + 2>/dev/null; true"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "@types/node": "^20.14.0"
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
   }
 }
