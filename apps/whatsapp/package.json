@@ -1,0 +1,23 @@
+{
+  "name": "loonyjs-whatsapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WhatsApp clone demo app built with LoonyJS + TypeORM",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "dev": "tsc -p tsconfig.json && node dist/main.js"
+  },
+  "dependencies": {
+    "@loonyjs/core": "*",
+    "@loonyjs/typeorm": "*",
+    "reflect-metadata": "^0.2.2",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.6",
+    "typescript": "^5.4.5"
+  }
+}
