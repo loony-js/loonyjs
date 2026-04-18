@@ -23,6 +23,9 @@ import { GroupMessageService } from '../services/group-message.service';
 import { CommunityService } from '../services/community.service';
 import { CommunityMemberService } from '../services/community-member.service';
 import { CommunityPostService } from '../services/community-post.service';
+import { AppUserController } from '../controllers/app-user.controller';
+import { DirectMessageController } from '../controllers/direct-message.controller';
+import { ChatGroupController } from '../controllers/chat-group.controller';
 
 @Module({
   imports: [
@@ -41,6 +44,7 @@ import { CommunityPostService } from '../services/community-post.service';
       CommunityPostRead,
     ]),
   ],
+  controllers: [AppUserController, DirectMessageController, ChatGroupController],
   providers: [
     AppUserService,
     ContactService,
